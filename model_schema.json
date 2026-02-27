@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Model name/title"
+          },
+          "primaryImageUrl": {
+            "type": "string",
+            "description": "Main image/thumbnail URL"
+          },
+          "creatorName": {
+            "type": "string",
+            "description": "Creator/author name"
+          },
+          "likes": {
+            "type": "number",
+            "description": "Number of likes/favorites"
+          },
+          "downloads": {
+            "type": "number",
+            "description": "Number of downloads"
+          },
+          "uploadDate": {
+            "type": "string",
+            "description": "Date when model was uploaded (ISO format)"
+          },
+          "modelUrl": {
+            "type": "string",
+            "description": "Direct URL to the model page"
+          }
+        },
+        "required": ["title", "primaryImageUrl", "creatorName", "likes", "downloads", "modelUrl"]
+      }
+    }
+  }
+}

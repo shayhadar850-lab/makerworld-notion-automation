@@ -1,0 +1,15 @@
+# Scraped data & cache
+.firecrawl/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
